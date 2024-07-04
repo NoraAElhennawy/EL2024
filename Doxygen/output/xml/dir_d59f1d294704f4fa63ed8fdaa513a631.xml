@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_d59f1d294704f4fa63ed8fdaa513a631" kind="dir">
+    <compoundname>C:/Users/hp/Documents/EmbbededLinux/Doxygen/input</compoundname>
+    <innerfile refid="_doxygen__ex_8py">Doxygen_ex.py</innerfile>
+    <innerfile refid="sensors_8py">sensors.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="sensors_8py" kind="file" language="Python">
+    <compoundname>sensors.py</compoundname>
+    <innerclass refid="classsensors_1_1_sensor" prot="public">sensors::Sensor</innerclass>
+    <innerclass refid="classsensors_1_1_temp_sensor" prot="public">sensors::TempSensor</innerclass>
+    <innernamespace refid="namespacesensors">sensors</innernamespace>
+    <briefdescription>
+<para>Defines the sensor classes. </para>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="sensors_8py_1description_sensors">
+<title>Description</title><para>Defines the base and end user classes for various sensors.<itemizedlist>
+<listitem><para>Sensor (base class)</para>
+</listitem><listitem><para>TempSensor</para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+<sect1 id="sensors_8py_1libraries_sensors">
+<title>Libraries/Modules</title><para><itemizedlist>
+<listitem><para>random standard library (<ulink url="https://docs.python.org/3/library/random.html">https://docs.python.org/3/library/random.html</ulink>)<itemizedlist>
+<listitem><para>Access to randint function.</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+<sect1 id="sensors_8py_1notes_sensors">
+<title>Notes</title><para><itemizedlist>
+<listitem><para>Comments are Doxygen compatible.</para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+<sect1 id="sensors_8py_1todo_sensors">
+<title>TODO</title><para><itemizedlist>
+<listitem><para>None.</para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+<sect1 id="sensors_8py_1author_sensors">
+<title>Author(s)</title><para><itemizedlist>
+<listitem><para>Created by John Woolsey on 05/27/2020.</para>
+</listitem><listitem><para>Modified by John Woolsey on 06/11/2020.</para>
+</listitem></itemizedlist>
+</para>
+<para>Copyright (c) 2020 Woolsey Workshop. All rights reserved. </para>
+</sect1>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacesensors" refkind="compound"><highlight class="stringliteral">&quot;&quot;&quot;!<sp/>@brief<sp/>Defines<sp/>the<sp/>sensor<sp/>classes.&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>random</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classsensors_1_1_sensor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsensors_1_1_sensor" kindref="compound">Sensor</ref>:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;!<sp/>The<sp/>sensor<sp/>base<sp/>class.</highlight></codeline>
+<codeline lineno="35"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="36"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Defines<sp/>the<sp/>base<sp/>class<sp/>utilized<sp/>by<sp/>all<sp/>sensors.</highlight></codeline>
+<codeline lineno="37"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="classsensors_1_1_sensor_1a120ea1ffc0a9f19357ea5252674774d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classsensors_1_1_sensor_1a120ea1ffc0a9f19357ea5252674774d1" kindref="member">__init__</ref>(self,<sp/>name):</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;!<sp/>The<sp/>Sensor<sp/>base<sp/>class<sp/>initializer.</highlight></codeline>
+<codeline lineno="41"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="42"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@param<sp/>name<sp/><sp/>The<sp/>name<sp/>of<sp/>the<sp/>sensor.</highlight></codeline>
+<codeline lineno="43"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="44"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@return<sp/><sp/>An<sp/>instance<sp/>of<sp/>the<sp/>Sensor<sp/>class<sp/>initialized<sp/>with<sp/>the<sp/>specified<sp/>name.</highlight></codeline>
+<codeline lineno="45"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48" refid="classsensors_1_1_sensor_1acbfe48ac45a5194246a8c1a75b06e369" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classsensors_1_1_sensor_1acbfe48ac45a5194246a8c1a75b06e369" kindref="member">name</ref><sp/>=<sp/>name</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50" refid="classsensors_1_1_sensor_1a18f54067863e261d7953f89253d46999" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classsensors_1_1_sensor_1a18f54067863e261d7953f89253d46999" kindref="member">value</ref><sp/>=<sp/>random.randint(0,<sp/>50)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="classsensors_1_1_sensor_1af01ecfcb2d1fca76405e41285380d316" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classsensors_1_1_sensor_1af01ecfcb2d1fca76405e41285380d316" kindref="member">__str__</ref>(self):</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;!<sp/>Retrieves<sp/>the<sp/>sensor&apos;s<sp/>description.</highlight></codeline>
+<codeline lineno="54"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="55"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@return<sp/><sp/>A<sp/>description<sp/>of<sp/>the<sp/>sensor.</highlight></codeline>
+<codeline lineno="56"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>f</highlight><highlight class="stringliteral">&quot;The<sp/>{self.name}<sp/>sensor<sp/>has<sp/>a<sp/>value<sp/>of<sp/>{self.value}.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="classsensors_1_1_temp_sensor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsensors_1_1_temp_sensor" kindref="compound">TempSensor</ref>(<ref refid="classsensors_1_1_sensor" kindref="compound">Sensor</ref>):</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;!<sp/>The<sp/>temperature<sp/>sensor<sp/>class.</highlight></codeline>
+<codeline lineno="63"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="64"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Provides<sp/>access<sp/>to<sp/>the<sp/>connected<sp/>temperature<sp/>sensor.</highlight></codeline>
+<codeline lineno="65"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="66"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Supported<sp/>units<sp/>are<sp/>&quot;F&quot;<sp/>(Fahrenheit),<sp/>&quot;C&quot;<sp/>(Celsius),<sp/>and<sp/>&quot;K&quot;<sp/>(Kelvin)</highlight></codeline>
+<codeline lineno="67"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>with<sp/>&quot;F&quot;<sp/>being<sp/>the<sp/>default<sp/>unit.</highlight></codeline>
+<codeline lineno="68"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="classsensors_1_1_temp_sensor_1a4b4ac593e99cccd42981d8a665a9af9a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classsensors_1_1_temp_sensor_1a4b4ac593e99cccd42981d8a665a9af9a" kindref="member">__init__</ref>(self,<sp/>name,<sp/>unit=&quot;F&quot;):</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;!<sp/>The<sp/>TempSensor<sp/>class<sp/>initializer.</highlight></codeline>
+<codeline lineno="72"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="73"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@param<sp/>name<sp/><sp/>The<sp/>name<sp/>of<sp/>the<sp/>temperature<sp/>sensor.</highlight></codeline>
+<codeline lineno="74"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@param<sp/>unit<sp/><sp/>The<sp/>unit<sp/>of<sp/>the<sp/>temperature<sp/>sensor,<sp/>defaults<sp/>to<sp/>&quot;F&quot;.</highlight></codeline>
+<codeline lineno="75"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="76"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@return<sp/><sp/>An<sp/>instance<sp/>of<sp/>the<sp/>TempSensor<sp/>class<sp/>initialized<sp/>with<sp/>the<sp/>specified<sp/>name<sp/>and<sp/>unit.</highlight></codeline>
+<codeline lineno="77"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super().<ref refid="classsensors_1_1_temp_sensor_1a4b4ac593e99cccd42981d8a665a9af9a" kindref="member">__init__</ref>(name)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="81" refid="classsensors_1_1_temp_sensor_1a83a46ccc0c328a8e6adc6ea0ae1a0a71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classsensors_1_1_temp_sensor_1a83a46ccc0c328a8e6adc6ea0ae1a0a71" kindref="member">unit</ref><sp/>=<sp/>unit</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="classsensors_1_1_temp_sensor_1aa0b5a76debfcdcc52df74ad037be76d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classsensors_1_1_temp_sensor_1aa0b5a76debfcdcc52df74ad037be76d6" kindref="member">__str__</ref>(self):</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;!<sp/>Retrieves<sp/>the<sp/>temperature<sp/>sensor&apos;s<sp/>description.</highlight></codeline>
+<codeline lineno="85"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="86"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@return<sp/><sp/>A<sp/>description<sp/>of<sp/>the<sp/>temperature<sp/>sensor.</highlight></codeline>
+<codeline lineno="87"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f</highlight><highlight class="stringliteral">&quot;The<sp/>{self.name}<sp/>temperature<sp/>sensor<sp/>has<sp/>a<sp/>value<sp/>of<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f</highlight><highlight class="stringliteral">&quot;{self.value}<sp/>degrees<sp/>{self.unit}.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="classsensors_1_1_temp_sensor_1a701a24b5dd60e0781466bf19e7cdad04" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classsensors_1_1_temp_sensor_1a701a24b5dd60e0781466bf19e7cdad04" kindref="member">set_unit</ref>(self,<sp/>unit):</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;!<sp/>Sets<sp/>the<sp/>temperature<sp/>unit.</highlight></codeline>
+<codeline lineno="96"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="97"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>@param<sp/>unit<sp/><sp/>The<sp/>temperature<sp/>unit<sp/>(&quot;F&quot;,<sp/>&quot;C&quot;,<sp/>or<sp/>&quot;K&quot;),</highlight></codeline>
+<codeline lineno="98"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>defaults<sp/>to<sp/>&quot;F&quot;<sp/>if<sp/>a<sp/>valid<sp/>unit<sp/>is<sp/>not<sp/>provided.</highlight></codeline>
+<codeline lineno="99"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>unit<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>(</highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;K&quot;</highlight><highlight class="normal">):</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classsensors_1_1_temp_sensor_1a83a46ccc0c328a8e6adc6ea0ae1a0a71" kindref="member">unit</ref><sp/>=<sp/>unit</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classsensors_1_1_temp_sensor_1a83a46ccc0c328a8e6adc6ea0ae1a0a71" kindref="member">unit</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;F&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py"/>
+  </compounddef>
+</doxygen>

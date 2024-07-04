@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.11.0" xml:lang="en-US">
+  <compound refid="classsensors_1_1_sensor" kind="class"><name>sensors::Sensor</name>
+    <member refid="classsensors_1_1_sensor_1acbfe48ac45a5194246a8c1a75b06e369" kind="variable"><name>name</name></member>
+    <member refid="classsensors_1_1_sensor_1a18f54067863e261d7953f89253d46999" kind="variable"><name>value</name></member>
+    <member refid="classsensors_1_1_sensor_1a120ea1ffc0a9f19357ea5252674774d1" kind="function"><name>__init__</name></member>
+    <member refid="classsensors_1_1_sensor_1af01ecfcb2d1fca76405e41285380d316" kind="function"><name>__str__</name></member>
+  </compound>
+  <compound refid="classsensors_1_1_temp_sensor" kind="class"><name>sensors::TempSensor</name>
+    <member refid="classsensors_1_1_temp_sensor_1a83a46ccc0c328a8e6adc6ea0ae1a0a71" kind="variable"><name>unit</name></member>
+    <member refid="classsensors_1_1_temp_sensor_1a4b4ac593e99cccd42981d8a665a9af9a" kind="function"><name>__init__</name></member>
+    <member refid="classsensors_1_1_temp_sensor_1aa0b5a76debfcdcc52df74ad037be76d6" kind="function"><name>__str__</name></member>
+    <member refid="classsensors_1_1_temp_sensor_1a701a24b5dd60e0781466bf19e7cdad04" kind="function"><name>set_unit</name></member>
+  </compound>
+  <compound refid="namespace_doxygen__ex" kind="namespace"><name>Doxygen_ex</name>
+    <member refid="namespace_doxygen__ex_1a3b6ce03048465cfd3d435824ecd68697" kind="variable"><name>DEBUG</name></member>
+    <member refid="namespace_doxygen__ex_1aabbf6d0e68ff7f2a83bcdcbade00f06d" kind="variable"><name>MIN_BASE</name></member>
+    <member refid="namespace_doxygen__ex_1a8f25c23d3bb880a1c48c87450c035b87" kind="variable"><name>MAX_BASE</name></member>
+    <member refid="namespace_doxygen__ex_1acf5e42a140fe9e8caa57c6587022800c" kind="variable"><name>MIN_MAPPED</name></member>
+    <member refid="namespace_doxygen__ex_1a632bbf443fee09339e59173037ff9845" kind="variable"><name>MAX_MAPPED</name></member>
+    <member refid="namespace_doxygen__ex_1aa187021619680921ff983cd9caa0dc8a" kind="function"><name>init</name></member>
+    <member refid="namespace_doxygen__ex_1a60d2fb9c395a97683cdef3b8781cbcff" kind="function"><name>map_range</name></member>
+    <member refid="namespace_doxygen__ex_1ab5ff0479150f5065b31364b7d8873e82" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="namespacesensors" kind="namespace"><name>sensors</name>
+  </compound>
+  <compound refid="_doxygen__ex_8py" kind="file"><name>Doxygen_ex.py</name>
+  </compound>
+  <compound refid="sensors_8py" kind="file"><name>sensors.py</name>
+  </compound>
+  <compound refid="dir_6a05a9014a68c5798e2a934c2e1ca8cd" kind="dir"><name>C:/Users/hp/Documents</name>
+  </compound>
+  <compound refid="dir_b6aca00930b97c9651b29990211a9d14" kind="dir"><name>C:/Users/hp/Documents/EmbbededLinux/Doxygen</name>
+  </compound>
+  <compound refid="dir_4acd1bd9bb051d330186d6ba6b23475d" kind="dir"><name>C:/Users/hp/Documents/EmbbededLinux</name>
+  </compound>
+  <compound refid="dir_a8e39aad38fa0ac2a23112391428b6f5" kind="dir"><name>C:/Users/hp</name>
+  </compound>
+  <compound refid="dir_d59f1d294704f4fa63ed8fdaa513a631" kind="dir"><name>C:/Users/hp/Documents/EmbbededLinux/Doxygen/input</name>
+  </compound>
+  <compound refid="dir_d522931ffa1371640980b621734a4381" kind="dir"><name>C:/Users</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

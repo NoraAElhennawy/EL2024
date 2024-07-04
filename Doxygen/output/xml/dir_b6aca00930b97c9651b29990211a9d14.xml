@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_b6aca00930b97c9651b29990211a9d14" kind="dir">
+    <compoundname>C:/Users/hp/Documents/EmbbededLinux/Doxygen</compoundname>
+    <innerdir refid="dir_d59f1d294704f4fa63ed8fdaa513a631">C:/Users/hp/Documents/EmbbededLinux/Doxygen/input</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/"/>
+  </compounddef>
+</doxygen>

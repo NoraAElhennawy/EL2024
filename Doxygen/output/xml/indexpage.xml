@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>Doxygen Example Project</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="index_1description_main">
+<title>Description</title><para>An example Python program demonstrating how to use Doxygen style comments for generating source code documentation with Doxygen.</para>
+</sect1>
+<sect1 id="index_1notes_main">
+<title>Notes</title><para><itemizedlist>
+<listitem><para>Add special project notes here that you want to communicate to the user.</para>
+</listitem></itemizedlist>
+</para>
+<para>Copyright (c) 2020 Woolsey Workshop. All rights reserved. </para>
+</sect1>
+    </detaileddescription>
+    <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/Doxygen_ex.py"/>
+  </compounddef>
+</doxygen>

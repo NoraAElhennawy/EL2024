@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="_doxygen__ex_8py" kind="file" language="Python">
+    <compoundname>Doxygen_ex.py</compoundname>
+    <innernamespace refid="namespace_doxygen__ex">Doxygen_ex</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_doxygen__ex" refkind="compound"><highlight class="comment">#!/usr/bin/env<sp/>python3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&quot;&quot;!<sp/>@brief<sp/>Example<sp/>Python<sp/>program<sp/>with<sp/>Doxygen<sp/>style<sp/>comments.&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Imports</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>time<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>sleep</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>sensors</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Global<sp/>Constants</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="namespace_doxygen__ex_1a3b6ce03048465cfd3d435824ecd68697" refkind="member"><highlight class="normal">DEBUG<sp/>=<sp/>1</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="namespace_doxygen__ex_1aabbf6d0e68ff7f2a83bcdcbade00f06d" refkind="member"><highlight class="normal">MIN_BASE<sp/>=<sp/>1</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="namespace_doxygen__ex_1a8f25c23d3bb880a1c48c87450c035b87" refkind="member"><highlight class="normal">MAX_BASE<sp/>=<sp/>10</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="namespace_doxygen__ex_1acf5e42a140fe9e8caa57c6587022800c" refkind="member"><highlight class="normal">MIN_MAPPED<sp/>=<sp/>0</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="namespace_doxygen__ex_1a632bbf443fee09339e59173037ff9845" refkind="member"><highlight class="normal">MAX_MAPPED<sp/>=<sp/>255</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="namespace_doxygen__ex_1aa187021619680921ff983cd9caa0dc8a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespace_doxygen__ex_1aa187021619680921ff983cd9caa0dc8a" kindref="member">init</ref>():</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;!<sp/>Initializes<sp/>the<sp/>program.&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>DEBUG:</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&quot;Initializing<sp/>program.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="namespace_doxygen__ex_1a60d2fb9c395a97683cdef3b8781cbcff" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespace_doxygen__ex_1a60d2fb9c395a97683cdef3b8781cbcff" kindref="member">map_range</ref>(number,<sp/>in_min,<sp/>in_max,<sp/>out_min,<sp/>out_max):</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;!<sp/>Maps<sp/>a<sp/>number<sp/>from<sp/>one<sp/>range<sp/>to<sp/>another.</highlight></codeline>
+<codeline lineno="73"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="74"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>@param<sp/>number<sp/><sp/><sp/>The<sp/>input<sp/>number<sp/>to<sp/>map.</highlight></codeline>
+<codeline lineno="75"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>@param<sp/>in_min<sp/><sp/><sp/>The<sp/>minimum<sp/>value<sp/>of<sp/>an<sp/>input<sp/>number.</highlight></codeline>
+<codeline lineno="76"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>@param<sp/>in_max<sp/><sp/><sp/>The<sp/>maximum<sp/>value<sp/>of<sp/>an<sp/>input<sp/>number.</highlight></codeline>
+<codeline lineno="77"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>@param<sp/>out_min<sp/><sp/>The<sp/>minimum<sp/>value<sp/>of<sp/>an<sp/>output<sp/>number.</highlight></codeline>
+<codeline lineno="78"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>@param<sp/>out_max<sp/><sp/>The<sp/>maximum<sp/>value<sp/>of<sp/>an<sp/>output<sp/>number.</highlight></codeline>
+<codeline lineno="79"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="80"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>@return<sp/><sp/>The<sp/>mapped<sp/>number.</highlight></codeline>
+<codeline lineno="81"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>mapped<sp/>=<sp/>(number<sp/>-<sp/>in_min)<sp/>*<sp/>(out_max<sp/>-<sp/>out_min)<sp/>/<sp/>(in_max<sp/>-<sp/>in_min)<sp/>+<sp/>out_min</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>out_min<sp/>&lt;=<sp/>out_max:</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>max(min(mapped,<sp/>out_max),<sp/>out_min)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>min(max(mapped,<sp/>out_max),<sp/>out_min)</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="namespace_doxygen__ex_1ab5ff0479150f5065b31364b7d8873e82" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespace_doxygen__ex_1ab5ff0479150f5065b31364b7d8873e82" kindref="member">main</ref>():</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;!<sp/>Main<sp/>program<sp/>entry.&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_doxygen__ex_1aa187021619680921ff983cd9caa0dc8a" kindref="member">init</ref>()<sp/><sp/></highlight><highlight class="comment">#<sp/>program<sp/>initialization</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Map<sp/>numbers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>i<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>range(MIN_BASE,<sp/>MAX_BASE<sp/>+<sp/>1):</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f</highlight><highlight class="stringliteral">&quot;Base:<sp/>{i:2d},<sp/>Mapped:<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f</highlight><highlight class="stringliteral">&quot;{map_range(i,<sp/>MIN_BASE,<sp/>MAX_BASE,<sp/>MIN_MAPPED,<sp/>MAX_MAPPED):5.1f}&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sleep(0.25)<sp/><sp/></highlight><highlight class="comment">#<sp/>wait<sp/>250<sp/>milliseconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Sensors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>sensor<sp/>=<sp/><ref refid="classsensors_1_1_sensor" kindref="compound">sensors.Sensor</ref>(</highlight><highlight class="stringliteral">&quot;MySensor&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>print(sensor)</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>temp_in<sp/>=<sp/><ref refid="classsensors_1_1_temp_sensor" kindref="compound">sensors.TempSensor</ref>(</highlight><highlight class="stringliteral">&quot;Inside&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>print(temp_in)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>temp_out<sp/>=<sp/><ref refid="classsensors_1_1_temp_sensor" kindref="compound">sensors.TempSensor</ref>(</highlight><highlight class="stringliteral">&quot;Outside&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>print(temp_out)</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>temp_out.set_unit(</highlight><highlight class="stringliteral">&quot;K&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>print(temp_out)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>__name__<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;__main__&quot;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_doxygen__ex_1ab5ff0479150f5065b31364b7d8873e82" kindref="member">main</ref>()</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/Doxygen_ex.py"/>
+  </compounddef>
+</doxygen>

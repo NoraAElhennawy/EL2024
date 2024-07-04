@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespacesensors" kind="namespace" language="Python">
+    <compoundname>sensors</compoundname>
+    <innerclass refid="classsensors_1_1_sensor" prot="public">sensors::Sensor</innerclass>
+    <innerclass refid="classsensors_1_1_temp_sensor" prot="public">sensors::TempSensor</innerclass>
+    <briefdescription>
+<para>Defines the sensor classes. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

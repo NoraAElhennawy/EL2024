@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classsensors_1_1_sensor" kind="class" language="Python" prot="public">
+    <compoundname>sensors::Sensor</compoundname>
+    <derivedcompoundref refid="classsensors_1_1_temp_sensor" prot="public" virt="non-virtual">sensors.TempSensor</derivedcompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsensors_1_1_sensor_1acbfe48ac45a5194246a8c1a75b06e369" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sensors.Sensor::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>sensors.Sensor.name</qualifiedname>
+        <briefdescription>
+<para>The name of the sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" line="48" column="1" bodyfile="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsensors_1_1_sensor_1a18f54067863e261d7953f89253d46999" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sensors.Sensor::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>sensors.Sensor.value</qualifiedname>
+        <briefdescription>
+<para>The value of the sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" line="50" column="1" bodyfile="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsensors_1_1_sensor_1a120ea1ffc0a9f19357ea5252674774d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sensors.Sensor.__init__</definition>
+        <argsstring>(self, name)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>sensors.Sensor.__init__</qualifiedname>
+        <reimplementedby refid="classsensors_1_1_temp_sensor_1a4b4ac593e99cccd42981d8a665a9af9a">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classsensors_1_1_sensor_1acbfe48ac45a5194246a8c1a75b06e369" kindref="member">name</ref></type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+<para>The <ref refid="classsensors_1_1_sensor" kindref="compound">Sensor</ref> base class initializer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the sensor.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An instance of the <ref refid="classsensors_1_1_sensor" kindref="compound">Sensor</ref> class initialized with the specified name. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" line="39" column="1" bodyfile="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" bodystart="39" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensors_1_1_sensor_1af01ecfcb2d1fca76405e41285380d316" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sensors.Sensor.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>sensors.Sensor.__str__</qualifiedname>
+        <reimplementedby refid="classsensors_1_1_temp_sensor_1aa0b5a76debfcdcc52df74ad037be76d6">__str__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+<para>Retrieves the sensor&apos;s description. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A description of the sensor. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" line="52" column="1" bodyfile="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" bodystart="52" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The sensor base class. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Defines the base class utilized by all sensors. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>sensors.Sensor</label>
+        <link refid="classsensors_1_1_sensor"/>
+      </node>
+      <node id="2">
+        <label>sensors.TempSensor</label>
+        <link refid="classsensors_1_1_temp_sensor"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" line="33" column="1" bodyfile="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" bodystart="33" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classsensors_1_1_sensor_1a120ea1ffc0a9f19357ea5252674774d1" prot="public" virt="non-virtual"><scope>sensors::Sensor</scope><name>__init__</name></member>
+      <member refid="classsensors_1_1_sensor_1af01ecfcb2d1fca76405e41285380d316" prot="public" virt="non-virtual"><scope>sensors::Sensor</scope><name>__str__</name></member>
+      <member refid="classsensors_1_1_sensor_1acbfe48ac45a5194246a8c1a75b06e369" prot="public" virt="non-virtual"><scope>sensors::Sensor</scope><name>name</name></member>
+      <member refid="classsensors_1_1_sensor_1a18f54067863e261d7953f89253d46999" prot="public" virt="non-virtual"><scope>sensors::Sensor</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

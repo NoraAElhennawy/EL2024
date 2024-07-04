@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespace_doxygen__ex" kind="namespace" language="Python">
+    <compoundname>Doxygen_ex</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_doxygen__ex_1a3b6ce03048465cfd3d435824ecd68697" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Doxygen_ex.DEBUG</definition>
+        <argsstring></argsstring>
+        <name>DEBUG</name>
+        <qualifiedname>Doxygen_ex.DEBUG</qualifiedname>
+        <initializer>=  1</initializer>
+        <briefdescription>
+<para>The mode of operation; 0 = normal, 1 = debug. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/Doxygen_ex.py" line="52" column="1" bodyfile="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/Doxygen_ex.py" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_doxygen__ex_1aabbf6d0e68ff7f2a83bcdcbade00f06d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Doxygen_ex.MIN_BASE</definition>
+        <argsstring></argsstring>
+        <name>MIN_BASE</name>
+        <qualifiedname>Doxygen_ex.MIN_BASE</qualifiedname>
+        <initializer>=  1</initializer>
+        <briefdescription>
+<para>The minimum number to map. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/Doxygen_ex.py" line="54" column="1" bodyfile="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/Doxygen_ex.py" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_doxygen__ex_1a8f25c23d3bb880a1c48c87450c035b87" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Doxygen_ex.MAX_BASE</definition>
+        <argsstring></argsstring>
+        <name>MAX_BASE</name>
+        <qualifiedname>Doxygen_ex.MAX_BASE</qualifiedname>
+        <initializer>=  10</initializer>
+        <briefdescription>
+<para>The maximum number to map. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/Doxygen_ex.py" line="56" column="1" bodyfile="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/Doxygen_ex.py" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_doxygen__ex_1acf5e42a140fe9e8caa57c6587022800c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Doxygen_ex.MIN_MAPPED</definition>
+        <argsstring></argsstring>
+        <name>MIN_MAPPED</name>
+        <qualifiedname>Doxygen_ex.MIN_MAPPED</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+<para>The minimum mapped value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/Doxygen_ex.py" line="58" column="1" bodyfile="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/Doxygen_ex.py" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_doxygen__ex_1a632bbf443fee09339e59173037ff9845" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Doxygen_ex.MAX_MAPPED</definition>
+        <argsstring></argsstring>
+        <name>MAX_MAPPED</name>
+        <qualifiedname>Doxygen_ex.MAX_MAPPED</qualifiedname>
+        <initializer>=  255</initializer>
+        <briefdescription>
+<para>The maximum mapped value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/Doxygen_ex.py" line="60" column="1" bodyfile="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/Doxygen_ex.py" bodystart="60" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_doxygen__ex_1aa187021619680921ff983cd9caa0dc8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Doxygen_ex.init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <qualifiedname>Doxygen_ex.init</qualifiedname>
+        <briefdescription>
+<para>Initializes the program. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/Doxygen_ex.py" line="64" column="1" bodyfile="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/Doxygen_ex.py" bodystart="64" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_doxygen__ex_1a60d2fb9c395a97683cdef3b8781cbcff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Doxygen_ex.map_range</definition>
+        <argsstring>(number, in_min, in_max, out_min, out_max)</argsstring>
+        <name>map_range</name>
+        <qualifiedname>Doxygen_ex.map_range</qualifiedname>
+        <param>
+          <type>number</type>
+          <defname>number</defname>
+        </param>
+        <param>
+          <type>in_min</type>
+          <defname>in_min</defname>
+        </param>
+        <param>
+          <type>in_max</type>
+          <defname>in_max</defname>
+        </param>
+        <param>
+          <type>out_min</type>
+          <defname>out_min</defname>
+        </param>
+        <param>
+          <type>out_max</type>
+          <defname>out_max</defname>
+        </param>
+        <briefdescription>
+<para>Maps a number from one range to another. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>number</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input number to map. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>in_min</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The minimum value of an input number. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>in_max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum value of an input number. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>out_min</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The minimum value of an output number. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>out_max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum value of an output number.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The mapped number. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/Doxygen_ex.py" line="71" column="1" bodyfile="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/Doxygen_ex.py" bodystart="71" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_doxygen__ex_1ab5ff0479150f5065b31364b7d8873e82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Doxygen_ex.main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <qualifiedname>Doxygen_ex.main</qualifiedname>
+        <briefdescription>
+<para>Main program entry. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/Doxygen_ex.py" line="89" column="1" bodyfile="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/Doxygen_ex.py" bodystart="89" bodyend="112"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Example Python program with Doxygen style comments. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/Doxygen_ex.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

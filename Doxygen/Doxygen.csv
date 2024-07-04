@@ -1,0 +1,18 @@
+Signature,Parameter,Return,"
+"
+,,,
+Doxygen_ex.init ,,void,
+,,,
+Doxygen_ex.main ,,void,
+,,,
+Doxygen_ex.map_range ,number in_min in_max out_min out_max,The mapped number. ,
+,,,
+Variable#0,int Doxygen_ex.DEBUG = 1,,
+,,,
+Variable#1,int Doxygen_ex.MAX_BASE = 10,,
+,,,
+Variable#2,int Doxygen_ex.MAX_MAPPED = 255,,
+,,,
+Variable#3,int Doxygen_ex.MIN_BASE = 1,,
+,,,
+Variable#4,int Doxygen_ex.MIN_MAPPED = 0,,

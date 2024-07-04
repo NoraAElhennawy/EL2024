@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classsensors_1_1_temp_sensor" kind="class" language="Python" prot="public">
+    <compoundname>sensors::TempSensor</compoundname>
+    <basecompoundref refid="classsensors_1_1_sensor" prot="public" virt="non-virtual">sensors.Sensor</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsensors_1_1_temp_sensor_1a83a46ccc0c328a8e6adc6ea0ae1a0a71" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sensors.TempSensor::unit</definition>
+        <argsstring></argsstring>
+        <name>unit</name>
+        <qualifiedname>sensors.TempSensor.unit</qualifiedname>
+        <briefdescription>
+<para>The temperature unit. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" line="81" column="1" bodyfile="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" bodystart="81" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsensors_1_1_temp_sensor_1a4b4ac593e99cccd42981d8a665a9af9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sensors.TempSensor.__init__</definition>
+        <argsstring>(self, name, unit=&quot;F&quot;)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>sensors.TempSensor.__init__</qualifiedname>
+        <reimplements refid="classsensors_1_1_sensor_1a120ea1ffc0a9f19357ea5252674774d1">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classsensors_1_1_sensor_1acbfe48ac45a5194246a8c1a75b06e369" kindref="member">name</ref></type>
+          <defname>name</defname>
+        </param>
+        <param>
+          <type><ref refid="classsensors_1_1_temp_sensor_1a83a46ccc0c328a8e6adc6ea0ae1a0a71" kindref="member">unit</ref></type>
+          <defname>unit</defname>
+          <defval>&quot;F&quot;</defval>
+        </param>
+        <briefdescription>
+<para>The <ref refid="classsensors_1_1_temp_sensor" kindref="compound">TempSensor</ref> class initializer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the temperature sensor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unit of the temperature sensor, defaults to &quot;F&quot;.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An instance of the <ref refid="classsensors_1_1_temp_sensor" kindref="compound">TempSensor</ref> class initialized with the specified name and unit. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" line="70" column="1" bodyfile="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" bodystart="70" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensors_1_1_temp_sensor_1aa0b5a76debfcdcc52df74ad037be76d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sensors.TempSensor.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>sensors.TempSensor.__str__</qualifiedname>
+        <reimplements refid="classsensors_1_1_sensor_1af01ecfcb2d1fca76405e41285380d316">__str__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+<para>Retrieves the temperature sensor&apos;s description. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A description of the temperature sensor. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" line="83" column="1" bodyfile="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" bodystart="83" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensors_1_1_temp_sensor_1a701a24b5dd60e0781466bf19e7cdad04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>sensors.TempSensor.set_unit</definition>
+        <argsstring>(self, unit)</argsstring>
+        <name>set_unit</name>
+        <qualifiedname>sensors.TempSensor.set_unit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classsensors_1_1_temp_sensor_1a83a46ccc0c328a8e6adc6ea0ae1a0a71" kindref="member">unit</ref></type>
+          <defname>unit</defname>
+        </param>
+        <briefdescription>
+<para>Sets the temperature unit. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>unit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The temperature unit (&quot;F&quot;, &quot;C&quot;, or &quot;K&quot;), defaults to &quot;F&quot; if a valid unit is not provided. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" line="94" column="1" bodyfile="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" bodystart="94" bodyend="105"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The temperature sensor class. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Provides access to the connected temperature sensor.</para>
+<para>Supported units are &quot;F&quot; (Fahrenheit), &quot;C&quot; (Celsius), and &quot;K&quot; (Kelvin) with &quot;F&quot; being the default unit. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>sensors.TempSensor</label>
+        <link refid="classsensors_1_1_temp_sensor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sensors.Sensor</label>
+        <link refid="classsensors_1_1_sensor"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>sensors.TempSensor</label>
+        <link refid="classsensors_1_1_temp_sensor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sensors.Sensor</label>
+        <link refid="classsensors_1_1_sensor"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" line="61" column="1" bodyfile="C:/Users/hp/Documents/EmbbededLinux/Doxygen/input/sensors.py" bodystart="61" bodyend="105"/>
+    <listofallmembers>
+      <member refid="classsensors_1_1_temp_sensor_1a4b4ac593e99cccd42981d8a665a9af9a" prot="public" virt="non-virtual"><scope>sensors::TempSensor</scope><name>__init__</name></member>
+      <member refid="classsensors_1_1_temp_sensor_1aa0b5a76debfcdcc52df74ad037be76d6" prot="public" virt="non-virtual"><scope>sensors::TempSensor</scope><name>__str__</name></member>
+      <member refid="classsensors_1_1_temp_sensor_1a701a24b5dd60e0781466bf19e7cdad04" prot="public" virt="non-virtual"><scope>sensors::TempSensor</scope><name>set_unit</name></member>
+      <member refid="classsensors_1_1_temp_sensor_1a83a46ccc0c328a8e6adc6ea0ae1a0a71" prot="public" virt="non-virtual"><scope>sensors::TempSensor</scope><name>unit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
